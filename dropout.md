@@ -23,4 +23,6 @@ tf.layers.dropout(
     name=None
 )
 ```
-关键的参数有俩个：rate=1-keep_prob;training为ture时，训练模式；false时为inference mode(预测)
+关键的参数有俩个：
+1. rate=1-keep_prob;
+2. training为ture时，训练模式；false时为inference mode(预测)
